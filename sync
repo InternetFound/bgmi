@@ -24,7 +24,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 
 # extras
 rm -rf hardware/qcom-caf/sdm660/display hardware/qcom-caf/sdm660/audio hardware/qcom-caf/sdm660/media vendor/lineage
-git clone -b sdm660-4.19-R-13 --depth=1 https://github.com/pix106/android_hardware_qcom-caf_display hardware/qcom-caf/sdm660/display
+git clone -b sdm660-4.19-11.2.1.r1 --depth=1 https://github.com/pix106/android_hardware_qcom-caf_display hardware/qcom-caf/sdm660/display
 git clone -b sdm660-4.19-11.2.1.r1 --depth=1 https://github.com/pix106/android_hardware_qcom-caf_audio hardware/qcom-caf/sdm660/audio
 git clone -b sdm660-4.19-11.2.1.r1 --depth=1 https://github.com/pix106/android_hardware_qcom-caf_media hardware/qcom-caf/sdm660/media
 git clone -b lineage-20.0 --depth=1  https://github.com/Prashant-1695/android_vendor_lineage vendor/lineage
