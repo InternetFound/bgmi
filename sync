@@ -31,8 +31,8 @@ git clone -b sdm660-4.19-11.2.1.r1 --depth=1 https://github.com/pix106/android_h
 # tree
 git clone --depth=1 https://github.com/lavender-4-19/device_xiaomi_lavender device/xiaomi/lavender -b 13-4.19
 git clone --depth=1 https://github.com/lavender-4-19/vendor_xiaomi_lavender vendor/xiaomi/lavender -b 13-4.19
-git clone --depth=1 https://github.com/lavender-4-19/device_xiaomi_sdm660-common vendor/xiaomi/lavender -b 13-4.19
-git clone --depth=1 https://github.com/lavender-4-19/vendor_xiaomi_sdm660-common vendor/xiaomi/lavender -b 13-4.19
+git clone --depth=1 https://github.com/lavender-4-19/device_xiaomi_sdm660-common device/xiaomi/sdm660-common -b 13-4.19
+git clone --depth=1 https://github.com/lavender-4-19/vendor_xiaomi_sdm660-common vendor/xiaomi/sdm660-common -b 13-4.19
 git clone --depth=1 https://github.com/pix106/android_kernel_xiaomi_southwest-4.19 kernel/xiaomi/sdm660 -b main
 
 # patch
