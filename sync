@@ -23,10 +23,11 @@ repo init --depth=1 --no-repo-verify -u https://github.com/LineageOS/android.git
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j16 || repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j10
 
 # extras
-rm -rf hardware/qcom-caf/sdm660/display hardware/qcom-caf/sdm660/audio hardware/qcom-caf/sdm660/media
+rm -rf hardware/qcom-caf/sdm660/display hardware/qcom-caf/sdm660/audio hardware/qcom-caf/sdm660/media vendor/lineage
 git clone -b sdm660-4.19-R-13 --depth=1 https://github.com/pix106/android_hardware_qcom-caf_display hardware/qcom-caf/sdm660/display
 git clone -b sdm660-4.19-11.2.1.r1 --depth=1 https://github.com/pix106/android_hardware_qcom-caf_audio hardware/qcom-caf/sdm660/audio
 git clone -b sdm660-4.19-11.2.1.r1 --depth=1 https://github.com/pix106/android_hardware_qcom-caf_media hardware/qcom-caf/sdm660/media
+git clone -b lineage-20.0 --depth=1  https://github.com/Prashant-1695/android_vendor_lineage vendor/lineage
 
 # tree
 git clone --depth=1 https://github.com/lavender-4-19/device_xiaomi_lavender device/xiaomi/lavender -b 13-4.19
