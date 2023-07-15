@@ -33,7 +33,7 @@ git clone -b havoc --depth=1 https://github.com/Prashant-1695/bionic bionic
 # tree
 git clone --depth=1 https://Prashant-1695:$my_og_token@github.com/Prashant-1695/device_xiaomi_lavender device/xiaomi/lavender -b havoc
 git clone --depth=1 https://Prashant-1695:$my_og_token@github.com/Prashant-1695/android_vendor_xiaomi_lavender vendor/xiaomi/lavender -b 13-4.4
-git clone --depth=1 https://github.com/projects-nexus/nexus_kernel_xiaomi_lavender kernel/xiaomi/lavender -b 13
+git clone https://github.com/projects-nexus/nexus_kernel_xiaomi_lavender kernel/xiaomi/lavender -b 13 && cd kernel/xiaomi/lavender && git revert 95f9daa79600719fcb338a38f7de2807aeded81a
 
 . /tmp/ci/function
 tg "$rom_name source sync completed!
