@@ -8,6 +8,7 @@ build_gapps=1
 export TZ=Asia/Kolkata
 # export TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS=false
 export SELINUX_IGNORE_NEVERALLOWS=true
+export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
 
 exp_gapps () {
 export WITH_GAPPS=true
