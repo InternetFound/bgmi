@@ -28,6 +28,7 @@ git clone -b arrow-13.1-caf-msm8998 --depth=1 https://github.com/ArrowOS/android
 git clone -b arrow-13.1-caf-msm8998 --depth=1 https://github.com/ArrowOS/android_hardware_qcom_media hardware/qcom-caf/msm8998/media
 git clone -b proton --depth=1 https://github.com/Prashant-1695/bionic bionic
 git clone -b lineage-20.0 --depth=1 https://github.com/LineageOS/android_packages_resources_devicesettings packages/resources/devicesettings 
+git clone --depth=1 https://gitlab.com/Project-Nexus/nexus-clang.git /tmp/rom/prebuilts/clang/host/linux-x86/clang-nexus -b nexus-14
 
 # tree
 git clone --depth=1 https://Prashant-1695:$my_og_token@github.com/Prashant-1695/device_xiaomi_lavender device/xiaomi/lavender -b aosp
