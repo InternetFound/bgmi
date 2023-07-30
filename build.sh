@@ -1,6 +1,6 @@
 # Normal build steps
 . build/envsetup.sh
-lunch legion_lavender-userdebug
+lunch proton_lavender-userdebug
 
 build_gapps=1
 
@@ -12,10 +12,10 @@ export RELAX_USES_LIBRARY_CHECK=true
 
 exp_gapps () {
 export WITH_GMS=true
-export LEGION_GAPPS=true
+# export LEGION_GAPPS=true
 export WITH_GAPPS=true
 }
 
 compile_plox () {
-m bacon
+m otapackage
 }
