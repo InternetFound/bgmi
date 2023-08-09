@@ -1,8 +1,8 @@
 # Normal build steps
 . build/envsetup.sh
-lunch superior_lavender-userdebug
+lunch lineage_lavender-userdebug
 
-build_gapps=1
+build_gapps=0
 
 # export variable here
 export TZ=Asia/Kolkata
