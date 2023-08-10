@@ -11,8 +11,10 @@ export TARGET_INCLUDE_PIXEL_CHARGER=true
 
 exp_gapps() { 
 export BUILD_WITH_GAPPS=true
+export WITH_GAPPS=true
+export WITH_GMS=true
 }
 
 compile_plox () {
-m bacon -j10
+make bacon -j10
 }
