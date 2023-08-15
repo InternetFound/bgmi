@@ -20,4 +20,5 @@ export BUILD_WITH_GAPPS=true
 
 compile_plox () {
 make evolution -j10
+mv out/target/product/lavender/*lavender-ota*.zip out/target/product/lavender/evolutionX-7.9.7_150823_lavender.zip
 }
