@@ -1,6 +1,6 @@
 # Normal build steps
 . build/envsetup.sh
-lunch aosp_lavender-userdebug
+lunch evolution_lavender-userdebug
 
 build_gapps=0
 
@@ -19,5 +19,5 @@ export BUILD_WITH_GAPPS=true
 }
 
 compile_plox () {
-make bacon -j10
+make evolution -j10
 }
