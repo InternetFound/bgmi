@@ -38,6 +38,9 @@ git clone --depth=1 https://github.com/ArrowOS/android_device_qcom_sepolicy-lega
 #rm -rf /tmp/rom/device/xiaomi/lavender/libhidl
 rm -rf /tmp/rom/hardware/xiaomi/megvii/*.bp
 
+rm -rf packages/resources/devicesettings
+git clone -b lineage-20.0 https://github.com/LineageOS/android_packages_resources_devicesettings packages/resources/devicesettings
+
 #hals
 sed -i 's|QCOM_HARDWARE_VARIANT := msm8998|QCOM_HARDWARE_VARIANT := sdm660|' vendor/*/config/B*Qcom.mk
 rm -rf hardware/qcom-caf/sdm660/audio hardware/qcom-caf/sdm660/media hardware/qcom-caf/sdm660/display
