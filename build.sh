@@ -1,6 +1,6 @@
 # Normal build steps
 . build/envsetup.sh
-lunch evolution_lavender-userdebug
+lunch aosp_lavender-userdebug
 
 build_gapps=0
 
